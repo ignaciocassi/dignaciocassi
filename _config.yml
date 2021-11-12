@@ -1,0 +1,90 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: dignaciocassi
+
+# Title of the Site
+title: Daniel Ignacio Cassi
+# Description of the Site
+description: Back-End Developer | Java, Spring Boot, Python | Estudiante Universitario
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/background.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+# heroimage: https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80
+heroimage: https://i.ibb.co/rQd2XHf/wallpaperss.png
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+curriculum: https://drive.google.com/file/d/1mLqBJI7yd0IhcXOZuyBNp8BiLRaJViiB/view?usp=sharing
+email: dignaciocassi@gmail.com
+linkedin_username: daniel-ignacio-cassi-7504661b9
+github_username:  ignaciocassi
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: thedevslot
+
+# Name of the Author
+author-name: Daniel Ignacio Cassi
+# URL for the Image of the Author
+author-image: https://media-exp1.licdn.com/dms/image/C4E03AQE7W6vgUqQmMA/profile-displayphoto-shrink_800_800/0/1631296343507?e=1642032000&v=beta&t=NDiZO1wU8PIY5TrZiLaOvlYfI0UHqppVYRJaoJluep0
+# 60 Words About the Author
+author-about: Hola! Mi nombre es Daniel Ignacio Cassi, tengo 24 años y soy estudiante Universitario en UADE para Tecnicatura Universitaria en Desarrollo de Software.<br/> Aunque disfruto aprender sobre todas las áreas del Diseño y el Desarrollo de Software, mi pasión es el Desarrollo Back-End. Tengo experiencia utilizando los lenguajes de programación Python y Java, con los cuales logré obtener conocimentos sobre estructuras de datos, algoritmos, complejidad temporal como también construir variados proyectos personales.<br/> Tengo experiencia con tecnologías como, Spring Framework y sus proyectos Spring Boot, Spring Data JPA, Spring Security y bases de datos relacionales como MySQL y PostgreSQL.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/ignaciocassi
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
