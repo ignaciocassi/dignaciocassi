@@ -10,6 +10,16 @@ source "http://rubygems.org"
 
 #gem "jekyll"
 
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|dignaciocassi| "https://github.com/#{dignaciocassi}" }
+
+# gem "rails"
+
+
+gem "github-pages", "~> 219", :group => :":jekyll-plugins"
 gem "rack"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
